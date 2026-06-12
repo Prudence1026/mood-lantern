@@ -3,8 +3,10 @@ import { http, createConfig } from "wagmi";
 import { base } from "wagmi/chains";
 import { coinbaseWallet, injected } from "wagmi/connectors";
 
+export const builderCode = "bc_ijtxsohv";
+
 export const dataSuffix =
-  "0x5245504c4143455f574954485f455243383032315f454e434f4445445f535452494e47" as `0x${string}`;
+  "0x62635f696a7478736f68760b0080218021802180218021802180218021" as `0x${string}`;
 
 export const attribution = {
   dataSuffix,

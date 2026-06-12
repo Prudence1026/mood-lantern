@@ -16,15 +16,15 @@ There is no token, no points system, no rewards, no invitation flow, and no app 
 - Viem
 - Tailwind CSS
 
-## Required Deployment Values
+## Deployment Values
 
-Replace these placeholders before production verification:
+These production values are configured:
 
-- `src/lib/contract.ts`: set `moodLanternAddress` to the deployed Base contract address.
-- `src/lib/wagmi.ts`: replace `dataSuffix` with the ERC-8021 encoded attribution string.
-- `src/app/layout.tsx`: replace `REPLACE_WITH_BASE_DEV_VERIFY_TOKEN` in the hard-coded `<meta name="base:app_id">` tag.
+- `src/lib/contract.ts`: `moodLanternAddress` points to the deployed Base contract address.
+- `src/lib/wagmi.ts`: `builderCode` and `dataSuffix` contain the build attribution values.
+- `src/app/layout.tsx`: Base and Talent app verification meta tags are present.
 
-The GitHub token, Vercel token, Base verify token, builder code, and deployed contract address were not included in the request. They should not be committed to the frontend.
+GitHub and Vercel tokens are not committed to the frontend.
 
 ## Local Development
 
